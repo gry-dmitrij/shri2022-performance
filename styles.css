@@ -463,7 +463,8 @@ html, body {
 }
 
 .event__icon_light {
-    background-image: url(assets/icon_sun.svg);
+    background-image: url(assets/icon_sun_2.svg);
+    filter: grayscale(1);
 }
 
 .event__icon_light2 {
