@@ -273,7 +273,7 @@ html, body {
     display: flex;
     gap: 0.9375rem;
     height: 20.6875rem;
-    background: no-repeat 50% 50% url(assets/bg.png);
+    background: no-repeat 50% 50% url(assets/bg.jpg);
     /*background-size: cover;*/
     background-size: 1260px;
     border-radius: 1.25rem;
@@ -454,7 +454,8 @@ html, body {
 }
 
 .event__icon_temp {
-    background-image: url(assets/icon_temperature.svg);
+    background-image: url(assets/icon_temperature_2.svg);
+    filter: grayscale(1);
 }
 
 .event__icon_temp2 {
